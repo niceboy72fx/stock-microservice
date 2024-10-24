@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es2022",
+    "module": "commonjs",
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "experimentalDecorators": true
+  },
+  "include": ["**/*"],
+  "exclude": [
+    "./node_modules", "**/*.spec.ts"]
+}

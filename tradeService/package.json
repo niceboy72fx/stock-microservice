@@ -1,0 +1,11 @@
+{
+  "name": "qr-payment-socket-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.vietnampost.vn/groupvnpd/qrpaymentsocketserver.git",
+  "author": "QuanTM <quantm.tb@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.js"
+  }
+}

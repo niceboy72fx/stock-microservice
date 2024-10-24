@@ -1,0 +1,15 @@
+version: "3.6"
+services:
+  web:
+    volumes:
+      - ./src:/app
+    build:
+      dockerfile: Dockerfile
+      context: .
+      network: host
+    image: qr-socker-server:latest
+    ports:
+      - "14003:14003"
+    restart: always
+
+
